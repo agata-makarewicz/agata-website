@@ -1,0 +1,35 @@
+---
+
+---
+
+@import "reset";
+@import "colors";
+@import "typography";
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    color: $black;
+    background-color: $gray-4;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.navy {
+  color: $navy;
+}
+
+.white {
+  color: $white;
+}
