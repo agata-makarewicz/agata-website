@@ -23,9 +23,7 @@ layout: default
             <div class="post__metadata">
                 24.04.2019 / praca lifstyle technologia
             </div>
-            <div class="post__thumbnail">
-                <img scr="https://placehold.it/140">
-            </div>
+            <div class="post__thumbnail"></div>
             <div class="post__summary">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tempor justo et blandit. Donec lectus eros, convallis a gravida et, vehicula sit amet odio. Praesent dignissim faucibus diam, at egestas nibh condimentum porttitor. Quisque pellentesque est eu sodales ultricies. Curabitur sit amet tempor odio. Mauris semper lorem metus, ac rhoncus turpis vehicula eu. Vestibulum luctus nisl at mauris cursus bibendum vitae et ipsum. Vivamus suscipit, velit eu feugiat fermentum, tellus dolor pretium erat, non aliquam est augue sed tortor.</p>
             </div>

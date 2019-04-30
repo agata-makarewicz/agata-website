@@ -34,7 +34,12 @@ header {
 }
 
 .hero__image {
-    img {
-        border-radius: 50%;
-    }
+    width: 140px;
+    height: 140px;
+    background-image: url("../images/agata.jpg");
+    background-position: center;
+    background-size: cover;
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
 }

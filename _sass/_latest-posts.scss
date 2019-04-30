@@ -1,0 +1,17 @@
+.latest-posts {
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    max-width: 620px;
+}
+
+.post__thumbnail {
+    padding-top: 41%;
+    box-shadow: 2px 4px 16px rgba(84, 84, 84, 0.25);
+    background-image: url("../images/succulents.jpg");
+    background-position: center;
+    background-size: cover;
+}
