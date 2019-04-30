@@ -1,0 +1,27 @@
+.main-nav {
+    background: $white;
+    padding: 64px 0 112px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav__menu {
+    display: grid;
+    max-width: 440px;
+    grid-template-columns: repeat(4,max-content);
+    grid-column-gap: 40px;
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: $gray;
+            display: block;
+
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+}

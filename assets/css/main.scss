@@ -5,25 +5,24 @@
 @import "reset";
 @import "colors";
 @import "typography";
+@import "grid";
+@import "main-nav";
+@import "header";
+@import "footer";
 
 html {
     box-sizing: border-box;
   }
   
-  *,
-  *:before,
-  *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
   }
 
 body {
     color: $black;
     background-color: $gray-4;
-}
-
-.container {
-    width: 940px;
-    margin: 0 auto;
 }
 
 .navy {

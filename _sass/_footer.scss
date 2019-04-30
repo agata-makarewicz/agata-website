@@ -1,0 +1,40 @@
+footer {
+    background: $white;
+    padding: 56px 0 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.footer__copyright {
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        color: $gray;
+    }
+}
+
+.footer__nav {
+    text-align: right;
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: $gray;
+            display: block;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+}
