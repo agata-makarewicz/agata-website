@@ -1,15 +1,17 @@
 footer {
     background: $white;
-    padding: 56px 0 80px;
+    padding: 32px 0;
+    text-align: center;
 }
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 0 80px;
 }
 
 .footer__copyright {
+    padding-bottom: 1rem;
 
     p {
         font-size: 14px;
@@ -19,10 +21,13 @@ footer {
 }
 
 .footer__nav {
-    text-align: right;
+    // text-align: right;
+
+    ul {
+        list-style: none;
+    }
 
     li {
-        list-style: none;
 
         a {
             text-decoration: none;

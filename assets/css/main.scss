@@ -24,12 +24,9 @@ html {
 body {
     color: $black;
     background-color: $gray-4;
+    min-height: 100vh;
 }
 
-.navy {
-  color: $navy;
-}
-
-.white {
-  color: $white;
+.wrapper {
+  padding: 0 1.5rem;
 }

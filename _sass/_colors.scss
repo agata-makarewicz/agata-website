@@ -6,6 +6,24 @@ $gray-4: hsla(0, 0%, 32%, 0.04);
 $navy: hsla(204, 66%, 16%, 1);
 $blue: hsla(180, 67%, 47%, 1);
 $red: hsla(0, 100%, 64%, 1);
+$red-80: hsla(0, 100%, 64%, 0.8);
 $red-60: hsla(0, 100%, 64%, 0.6);
 $red-50: hsla(0, 100%, 64%, 0.5);
+$red-30: hsla(0, 100%, 64%, 0.3);
 $white: #fff;
+
+.navy {
+    color: $navy;
+  }
+  
+.white {
+    color: $white;
+  }
+
+.gray {
+  color: $gray;
+} 
+
+.gray-50 {
+  color: $gray-50;
+}  
