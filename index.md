@@ -28,18 +28,19 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
-            <div class="post__thumbnail"></div>
+            {% include post-thumbnail.html image=post.featured-image alt=post.featured-image-alt %}
             <div class="post__summary">
 
                 <h3 class="navy"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
+                <div class="post__excerpt">    
                 {{ post.excerpt }}
-
+                </div>
+            
+                <a class="post__read-more" href="{{ post.url }}">
+                    Czytaj dalej ›
+                </a>
             </div>
-
-            <a class="post__read-more" href="{{ post.url }}">
-                Czytaj dalej ›
-            </a>
         </div>
     {% endfor %}
     </div>

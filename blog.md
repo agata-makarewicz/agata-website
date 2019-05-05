@@ -4,7 +4,7 @@ layout: default
 
 <section class="latest-posts">
     <div class="wrapper">
-    {% for post in site.posts | limit: 3 %}
+    {% for post in site.posts %}
         <div class="post">
             <div class="post__metadata">
                 <span class="gray">{{ post.date | date: 
@@ -15,18 +15,20 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
-            <div class="post__thumbnail"></div>
+            {% include post-thumbnail.html image=post.featured-image alt=post.featured-image-alt %}
             <div class="post__summary">
 
                 <h3 class="navy"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
+                <div class="post__excerpt">    
                 {{ post.excerpt }}
-
-            </div>
-
+                </div>
+            
             <a class="post__read-more" href="{{ post.url }}">
                 Czytaj dalej ›
             </a>
+
+            </div>
         </div>
     {% endfor %}
     </div>

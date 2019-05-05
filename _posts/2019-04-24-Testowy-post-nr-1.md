@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Przykładowy tytuł wpisu jest taki jak widać"
+title: Przykładowy tytuł wpisu jest taki jak widać
 categories: [praca, lifestyle, technologia, inne]
 featured-image: succulents.jpg
 featured-image-alt: 
