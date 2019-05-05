@@ -1,0 +1,35 @@
+.post__text {
+    max-width: 60ch;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.post__header {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.post-featured-img {
+    box-shadow: 2px 4px 16px rgba(84, 84, 84, 0.25);
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+
+    @media only screen and (min-width: 620px) {
+        max-width: 780px;
+        height: 320px;
+    }
+} 
+
+.post__metadata {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}

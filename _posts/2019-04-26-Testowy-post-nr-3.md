@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Przykładowy tytuł wpisu jest taki jak widać
 categories: [lifestyle, osobiste]
 featured-image: red-flowers.jpg

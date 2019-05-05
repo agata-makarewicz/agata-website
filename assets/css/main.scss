@@ -10,6 +10,7 @@
 @import "header";
 @import "footer";
 @import "latest-posts";
+@import "post";
 
 html {
     box-sizing: border-box;
@@ -30,4 +31,14 @@ body {
 .wrapper {
   padding: 0 1.5rem;
   margin: 0 auto;
+}
+
+a {
+  color: $red;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: $blue;
+  }
 }

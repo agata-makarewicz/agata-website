@@ -1,0 +1,9 @@
+<div class="post__metadata">
+    <span class="gray">{{ post.date | date: 
+'%d.%m.%Y' }}</span>&nbsp;<span class="gray-50">/</span>&nbsp;
+    <ul class="post__categories">
+        {% for category in post.categories %}
+            <li><a href="">{{ category }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

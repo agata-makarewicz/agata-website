@@ -7,7 +7,7 @@ layout: default
     <div class="wrapper">
         <div class="hero">
             <div class="hero__text">
-                <h1 class="navy">Miło Cię widzieć</h1>
+                <h1>Miło Cię widzieć</h1>
                 <p>Poniżej znajdziesz moje opowieści o drobnych radościach, a także codziennych zmaganiach z dorosłością, własną głową oraz rzeczami, które mnie poruszają.</p>
             </div>
             <img class="hero__image" src="../assets/images/agata.jpg" alt="">
@@ -19,19 +19,11 @@ layout: default
     <div class="wrapper">
     {% for post in site.posts | limit: 3 %}
         <div class="post">
-            <div class="post__metadata">
-                <span class="gray">{{ post.date | date: 
-            '%d.%m.%Y' }}</span>&nbsp;<span class="gray-50">/</span>&nbsp;
-                <ul class="post__categories">
-                    {% for category in post.categories %}
-                        <li><a href="">{{ category }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
+            {% include post-metadata.html %}
             {% include post-thumbnail.html image=post.featured-image alt=post.featured-image-alt %}
             <div class="post__summary">
 
-                <h3 class="navy"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
                 <div class="post__excerpt">    
                 {{ post.excerpt }}

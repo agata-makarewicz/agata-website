@@ -18,7 +18,7 @@ layout: default
             {% include post-thumbnail.html image=post.featured-image alt=post.featured-image-alt %}
             <div class="post__summary">
 
-                <h3 class="navy"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
                 <div class="post__excerpt">    
                 {{ post.excerpt }}
