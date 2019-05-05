@@ -2,19 +2,6 @@
 layout: default
 ---
 
-
-<header>
-    <div class="wrapper">
-        <div class="hero">
-            <div class="hero__text">
-                <h1 class="navy">Miło Cię widzieć</h1>
-                <p>Poniżej znajdziesz moje opowieści o drobnych radościach, a także codziennych zmaganiach z dorosłością, własną głową oraz rzeczami, które mnie poruszają.</p>
-            </div>
-            <img class="hero__image" src="../assets/images/agata.jpg" alt="">
-        </div>
-    </div>    
-</header>
-
 <section class="latest-posts">
     <div class="wrapper">
     {% for post in site.posts | limit: 3 %}
