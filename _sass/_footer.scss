@@ -7,11 +7,19 @@ footer {
 .footer {
     display: flex;
     flex-direction: column;
-    padding: 0 80px;
+
+    @media only screen and (min-width: 620px) {
+        flex-direction: row;
+    }
 }
 
 .footer__copyright {
     padding-bottom: 1rem;
+
+    @media only screen and (min-width: 620px) {
+        text-align: left;
+        flex-basis: 50%;
+    }
 
     p {
         font-size: 14px;
@@ -21,7 +29,11 @@ footer {
 }
 
 .footer__nav {
-    // text-align: right;
+
+    @media only screen and (min-width: 620px) {
+        text-align: right;
+        flex-basis: 50%;
+    }
 
     ul {
         list-style: none;
