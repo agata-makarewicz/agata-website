@@ -22,10 +22,9 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.05em;
-    padding-bottom: 1rem;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 2px;
 }
 
 .post__summary {
@@ -41,6 +40,7 @@
 
     li {
         display: inline-block;
+        margin-bottom: 6px;
 
         a {
             text-decoration: none;
