@@ -8,23 +8,32 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
-    <div class="post__header">
+
+    <header class="post-page__navigation">
     {% include main-nav.html %}
-    {% include post-featured-img.html image=page.featured-image alt=page.featured-image-alt %}
-    </div>
-    <div class="post__metadata">
-        <span class="gray">{{ page.date | date: 
-    '%d.%m.%Y' }}</span>&nbsp;<span class="gray-50">/</span>&nbsp;
-        <ul class="post__categories">
-            {% for category in page.categories %}
-                <li><a href="">{{ category }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
+    </header>
+
     <div class="wrapper">
-        <div class="post__text">
-        {{ content }}
+        <div class="post__header">
+
+            {% include post-featured-img.html image=page.featured-image alt=page.featured-image-alt %}
+            
+            <div class="post__metadata">
+                <span class="gray">{{ page.date | date: 
+            '%d.%m.%Y' }}</span>&nbsp;<span class="gray-50">/</span>&nbsp;
+                <ul class="post__categories">
+                    {% for category in page.categories %}
+                        <li><a href="">{{ category }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
+        
+            <div class="post__text">
+                <h2>{{ page.title }}</h2>
+                {{ content }}
+            </div>
+
     </div> 
     {% include footer.html %}
 </body>

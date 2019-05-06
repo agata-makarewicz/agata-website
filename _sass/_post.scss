@@ -1,15 +1,23 @@
+.post-page__navigation {
+    // position: absolute;
+    padding-bottom: 5rem;
+}
+
 .post__text {
     max-width: 60ch;
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: 0 auto;
+    margin: 3rem auto 7.5rem;
 }
 
 .post__header {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    margin: -1.5rem auto 0;
+    max-width: 780px;
+    position: relative;
 }
 .post-featured-img {
     box-shadow: 2px 4px 16px rgba(84, 84, 84, 0.25);
@@ -32,4 +40,5 @@
     padding-bottom: 10px;
     display: flex;
     flex-direction: row;
+    align-self: flex-start;
 }
