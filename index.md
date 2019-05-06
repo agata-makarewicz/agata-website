@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-<header>
+<header class="homepage-header">
     <div class="wrapper">
         <div class="hero">
             <div class="hero__text">
